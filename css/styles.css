@@ -1,0 +1,157 @@
+.mosaic-block {
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:287px;
+	height:220px;
+	margin:10px;
+	border:1px solid #fff;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+
+.mosaic-backdrop {
+	display:none;
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	width:287px;
+	height:220px;
+	background-color: #31302e;
+}
+
+.mosaic-overlay {
+	display:none;
+	z-index:8;
+	position:absolute;
+	width:100%;
+	height:100%
+}
+	
+.mosaic-block1 {
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:595px;
+	height:220px;
+	margin:10px;
+	border:1px solid #fff;
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+}
+
+
+
+h4 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: lighter;
+	color: red;
+	font-size: 50px;
+	margin-top: 53px;
+}
+
+h3 {
+	font-family: 'Magra', sans-serif;
+	font-weight:normal;
+	color: #FFF;
+	
+}
+
+
+
+.spicy 	{
+	color: #e81a1e;
+}
+
+.raw 	{
+	color: #FFF;
+}
+
+
+hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 2.5
+	px solid #6B5D52;
+	border-bottom: 1px solid #31302e;
+}
+
+.details 	{
+	text-align: left;
+	color: #FFF;
+	margin-left: 15px;
+	margin-right: 13px;
+	margin-top: 20px;
+	font-weight:lighter;
+}
+
+.price	{
+	text-align: left;
+	margin-left: 4px;
+	margin-bottom:	4px;
+	font-family: 'Magra', sans-serif;
+}
+
+.logo	{
+	margin-left: -106px;
+}
+
+
+.social	{
+	
+	color: #e81a1e;
+	font-family: 'Magra', sans-serif;
+	font-size:18px;
+	
+}
+
+.adress	{
+	color: #31302e;
+	font-family: 'Magra', sans-serif;
+	font-size:12px;
+	line-height:18px;
+	float: right;
+	margin-top: -100px;	
+}
+
+.hours	{
+	color: #31302e;
+	font-family: 'Magra', sans-serif;
+	font-size:12px;
+	line-height:18px;
+	float: right;
+	margin-top: -100px;
+}
+
+.subhead	{
+	color: #31302e;
+	font-family: 'Magra', sans-serif;
+	font-weight: bold;
+	text-align:	left;
+	
+}
+
+body	{
+	color: #ebead8;
+}
+
+p	{
+	font-family: 'Magra', sans-serif;
+}
+
+
+.carousel-indicators li {
+	display: block;
+	float: left;
+	width: 15px;
+	height: 15px;
+	margin-left: 5px;
+	text-indent: -999px;
+	background-color: #e81a1e;
+	background-color: rgba(233, 30, 30, 0.63);
+	border-radius: 5px;
+}
+
+.credit {
+	font-size:10px;
+	color: #e81a1e;
+}
